@@ -363,6 +363,10 @@ a:focus, a:hover, a:active {
     background-color: #2a1b3d !important;
 }
 
+.stt {
+    background-color: #061115 !important;
+}
+
 .bg-light {
   background-color: #a4b3b6 !important;
 }
