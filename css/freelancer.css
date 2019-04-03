@@ -1,5 +1,7 @@
 body {
   font-family: 'Lato';
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1,
@@ -53,6 +55,7 @@ hr.star-dark:after {
 
 section {
   padding: 6rem 0;
+  width: 100%;
 }
 
 section h2 {
@@ -411,4 +414,13 @@ a:focus, a:hover, a:active {
     margin:auto;
     width: 100%;
     height: auto;
+}
+
+.strokeme {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
