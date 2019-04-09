@@ -179,8 +179,9 @@ header.masthead h1 {
 }
 
 header.masthead h2 {
-  font-size: 1.3rem;
-  font-family: 'Lato';
+    font-size: 2.25rem;
+    line-height: 2rem;
+
 }
 
 @media (min-width: 992px) {
@@ -193,8 +194,8 @@ header.masthead h2 {
     line-height: 4rem;
   }
   header.masthead h2 {
-    font-size: 1.75em;
-  }
+      font-size: 3rem;
+      line-height: 2.5rem;
 }
 
 .portfolio {
@@ -423,4 +424,12 @@ a:focus, a:hover, a:active {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+.stt {
+    background-image:url(https://i.imgur.com/RXndPO4r.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
