@@ -433,3 +433,12 @@ a:focus, a:hover, a:active {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.mazu-et-al {
+    background-image:url(https://i.imgur.com/WT1SYAA.png);
+    background-size: 100%, 100%;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
