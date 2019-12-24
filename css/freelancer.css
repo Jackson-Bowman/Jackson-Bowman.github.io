@@ -101,7 +101,10 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
-}
+  border-width: 2px;
+  border-bottom-width:2px;
+  border-bottom-color:White;
+  border-bottom-style: solid;}
 
 #mainNav .navbar-brand {
   color: #fff;
@@ -432,6 +435,17 @@ a:focus, a:hover, a:active {
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.arch {
+  background-color: black;
+}
+
+.arch-img {
+  height: 400px;
+  width:auto;
+  margin: 5px auto 5px;
+  display: block;
 }
 
 .mazu-et-al {
